@@ -1,0 +1,529 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300';
+
+html, body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+	display: block;
+	background-color: #80002a;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+li {
+	float: left;
+}
+
+/* Navigation CSS */
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	background-color: #660022;
+}
+
+li a.navbutton {
+	display: block;
+	text-align: center;
+	font-size: 15pt;
+	padding: 24px 26px;
+	text-decoration: none;
+}
+
+li a, footer p {
+	color: white;
+}
+
+li a:link {
+	background-color: #660022;
+}
+
+li a:hover {
+	background-color: #990000;
+}
+
+/* Navigation CSS */
+
+#mainHeading {
+	display: block;
+	text-align: center;
+	font-size: 15pt;
+	padding: 24px 26px;
+	text-decoration: none;
+}
+
+#mainImage {
+	position: relative;
+	top: 50px;
+	right: 100px;
+	float: right;
+}
+	
+body {
+	text-align: center;
+	color: white;
+	background: #A9A9A9;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+main {
+	margin: auto;
+	width: 40%;
+	min-width: 800px;
+	max-width: 1600px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #660022;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+p {
+	text-align: justify;
+	margin: auto;
+	width: 80%;
+	min-width: 640px;
+	max-width: 1280px;
+}
+
+label {
+    clear:left;
+    text-align:right;
+	margin-right: 10px;
+	color: white;
+}
+
+input, select, label, textarea {
+    width:240px;
+	float: left;
+	font-size: 14pt;
+}
+
+.contact, .checkout, .receipt {
+	margin: auto;
+	width: 500px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 14pt;
+}
+
+.receipt {
+	text-align: justify;
+}
+
+#expiryMonth {
+	width: 45px;
+}
+
+#expiryYear {
+	width: 90px;
+	margin-left: 10px;
+}
+
+#submit, #reset, #confirm, #cancel {
+	width: 100px;
+	font-size: 20px;
+	padding: 5px;
+	background-color: #990000;
+	border-radius: 10px;
+	color: white;
+}
+
+#submit, #confirm {
+	float: right;
+}
+
+/* Footer CSS */
+
+li a.footerbutton {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.footernav {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #660022;
+}
+
+hr {
+	margin: 0;
+}
+
+img.footer {
+	vertical-align: middle;
+}
+
+#copyright {
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+/* Footer CSS */
+
+/* Index page CSS */
+
+#season4 {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+/* Index page CSS */
+
+/* Contact page CSS */
+
+.formField {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Contact page CSS */
+
+/* Shop page CSS */
+
+img.season_pic {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+	clear: left;
+}
+
+div.shopSeason {
+	position: relative;
+	text-align: center;
+	left: 0px;
+	height: 400px;
+	width: 100%
+	margin-left: 0px;
+}
+
+div.description {
+	position: absolute;
+	text-align: center;
+	left: 300px;
+	right: 0px;
+	height: 300px;
+	margin-right: 0px;
+}
+
+.seasontext {
+	text-align: justify;
+	margin: auto;
+	width: 95%;
+	min-width: 100px;
+	max-width: 1280px;
+}
+
+div.shopQuantity {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+	text-align: center;
+	height: 25px;
+	width: 300px;
+	padding: 20px;
+	margin: 20px;
+}
+
+div.onlineshops {
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+.season {
+	width: 50px;
+	float: right;
+	font-size: 14pt;
+}
+
+summary {
+	text-align: center;
+	width: 200px;
+	display: inline;
+}
+
+details {
+	display: inline;
+	position: relative;
+}
+
+div.media {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	height: 100px;
+	width: 250px;
+	padding: 20px;
+}
+
+#AddtoCart {
+	float: right;
+	bottom: 0;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	padding: 4px;
+	background-color: #990000;
+	border-radius: 10px;
+	color: white;
+}
+
+#media {
+	width:120px;
+	float: left;
+	font-size: 14pt;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'less';
+}
+
+.read-more-trigger {
+	float: right;
+  	cursor: pointer;
+  	display: center;
+	bottom: 0;
+	width: 50px;
+	height: 30px;
+	font-size: 18px;
+	padding: 4px;
+	background-color: #990000;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	color: white;
+}
+
+/* Shop page CSS */
+
+/* Cart page CSS */
+#cartLayout {
+	position: relative;
+	text-align: center;
+	left: 0px;
+	height: 600px;
+	width: 100%;
+
+}
+
+#backtoShop {
+	position: absolute;
+	text-align: center;
+	left: 10px;
+	bottom: 10px;
+	height: 50px;
+	width: 100px;
+	border-style: solid;
+	border-color: white;	
+	font-size: 18px;
+	background-color: #990000;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#checkout {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	right: 10px;
+	bottom: 10px;
+	height: 25px;
+	width: 100px;
+	border-style: solid;
+	border-color: white;	
+	font-size: 18px;
+	background-color: #990000;
+	border-radius: 10px;
+}
+
+#cartseason {
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	height: 450px;
+	width: 300px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+
+#cartmedia {
+	position: absolute;
+	text-align: center;
+	left: 300px;
+	top: 0px;
+	height: 450px;
+	width: 90px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+
+#cartqty {
+	position: absolute;
+	text-align: center;
+	right: 250px;
+	top: 0px;
+	height: 450px;
+	width: 150px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+
+#cartprice {
+	position: absolute;
+	text-align: center;
+	right: 100px;
+	top: 0px;
+	height: 450px;
+	width: 150px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+
+#total {
+	position: absolute;
+	text-align: center;
+	right: 100px;
+	top: 450px;
+	height: 50px;
+	width: 150px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+#total p {
+	align-items: center;
+	padding: 12px;
+}
+
+#remove {
+	position: absolute;
+	text-align: center;
+	right: 0px;
+	top: 0px;
+	height: 450px;
+	width: 100px;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+}
+div.remove {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	right: 5px;
+	height: 20px;
+	width: 80px;
+	border-style: solid;
+	border-color: white;	
+	font-size: 14px;
+	background-color: #990000;
+	border-radius: 10px;
+}
+#emptycart {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	right: 5px;
+	top: 460px;
+	height: 25px;
+	width: 100px;
+	border-style: solid;
+	border-color: white;	
+	font-size: 14px;
+	background-color: #990000;
+	border-radius: 10px;
+}
+#cartEmptyMsg {
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	right: 0px;
+	top: 200px;
+	height: 50px;
+	width: 100%;
+	border-style: solid;
+	border-color: white;
+	background-color: #80002a;
+	border-radius: 10px;
+}
+#cartEmptyMsg p {
+	text-align:center;
+	vertical-align:middle;
+}
+
+.carttext {
+
+	position: absolute;
+	left: 20%;
+}
+.carttext2 {
+	position: absolute;
+	left: 40%;
+}
+/* Cart page CSS */
